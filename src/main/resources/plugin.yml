@@ -10,7 +10,7 @@ softdepend:
 commands:
   cr:
     description: Main ChronoRelic command
-    usage: /cr <help|give|reload>
+    usage: /cr <help|list|give|schem|reload>
     permission: chronorelic.command
 
 permissions:
@@ -22,6 +22,9 @@ permissions:
     default: op
   chronorelic.command.reload:
     description: Allows reloading ChronoRelic config
+    default: op
+  chronorelic.command.schem:
+    description: Allows previewing and pasting schematics
     default: op
   chronorelic.herobrine.summoner:
     description: Marks a player who has already summoned Herobrine
