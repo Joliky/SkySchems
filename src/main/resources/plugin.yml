@@ -1,31 +1,22 @@
-name: ChronoRelic
+name: SkySchems
 version: 1.0
-main: me.jolikki.chronorelic.ChronoRelic
+main: me.jolikki.skyschems.SkySchems
 api-version: 1.16
 author: jolikki
-website: vk.com/danivald1
-softdepend:
-  - LuckPerms
 
 commands:
-  cr:
-    description: Main ChronoRelic command
-    usage: /cr <help|list|give|schem|reload>
-    permission: chronorelic.command
+  skyschems:
+    description: Preview and paste schematics
+    usage: /skyschems <help|preview|paste|clear|reload>
+    aliases:
+      - ss
+      - schem
+    permission: skyschems.command.use
 
 permissions:
-  chronorelic.command:
-    description: Allows using the /cr command
+  skyschems.command.use:
+    description: Allows using SkySchems commands
     default: op
-  chronorelic.command.give:
-    description: Allows giving ChronoRelic items
+  skyschems.command.reload:
+    description: Allows reloading SkySchems config
     default: op
-  chronorelic.command.reload:
-    description: Allows reloading ChronoRelic config
-    default: op
-  chronorelic.command.schem:
-    description: Allows previewing and pasting schematics
-    default: op
-  chronorelic.herobrine.summoner:
-    description: Marks a player who has already summoned Herobrine
-    default: false

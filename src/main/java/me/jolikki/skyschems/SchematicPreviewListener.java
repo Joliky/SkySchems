@@ -1,6 +1,6 @@
-package me.jolikki.chronorelic.listener;
+package me.jolikki.skyschems;
 
-import me.jolikki.chronorelic.schematic.SchematicManager;
+import me.jolikki.skyschems.schematic.SchematicManager;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;

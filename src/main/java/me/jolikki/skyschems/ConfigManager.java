@@ -1,4 +1,4 @@
-package me.jolikki.chronorelic.manager;
+package me.jolikki.skyschems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;

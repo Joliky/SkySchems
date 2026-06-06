@@ -1,6 +1,6 @@
-package me.jolikki.chronorelic.schematic;
+package me.jolikki.skyschems.schematic;
 
-import me.jolikki.chronorelic.manager.ConfigManager;
+import me.jolikki.skyschems.ConfigManager;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.block.Block;

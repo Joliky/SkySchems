@@ -1,4 +1,4 @@
-package me.jolikki.chronorelic.schematic;
+package me.jolikki.skyschems.schematic;
 
 import org.bukkit.Bukkit;
 import org.bukkit.block.data.BlockData;
