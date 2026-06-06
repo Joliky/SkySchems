@@ -1,0 +1,28 @@
+name: ChronoRelic
+version: 1.0
+main: me.jolikki.chronorelic.ChronoRelic
+api-version: 1.16
+author: jolikki
+website: vk.com/danivald1
+softdepend:
+  - LuckPerms
+
+commands:
+  cr:
+    description: Main ChronoRelic command
+    usage: /cr <help|give|reload>
+    permission: chronorelic.command
+
+permissions:
+  chronorelic.command:
+    description: Allows using the /cr command
+    default: op
+  chronorelic.command.give:
+    description: Allows giving ChronoRelic items
+    default: op
+  chronorelic.command.reload:
+    description: Allows reloading ChronoRelic config
+    default: op
+  chronorelic.herobrine.summoner:
+    description: Marks a player who has already summoned Herobrine
+    default: false
