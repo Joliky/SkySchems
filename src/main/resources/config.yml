@@ -1,0 +1,46 @@
+cooldowns:
+  hero_cooldown: 15000
+  relic_cooldown: 5000
+
+relic:
+  material: DIAMOND
+  name: "&6Ancient Relic"
+  lore:
+    - "&7Древний артефакт"
+    - "&eСкрывает в себе силу"
+  consume-on-use: false
+
+titles:
+  summon:
+    title: "&4Херобрин"
+    subtitle: "&cБЫЛ ПРИЗВАН!"
+    fadeIn: 10
+    stay: 70
+    fadeOut: 20
+
+sounds:
+  summon:
+    sound: "entity.ender_dragon.growl"
+    volume: 1.0
+    pitch: 1.0
+
+permissions:
+  herobrine: "chronorelic.herobrine.summoner"
+
+messages:
+  no-permission: "&cНет прав."
+  usage: "&eИспользование: /cr give <player>, /cr reload"
+  unknown-command: "&cНеизвестная команда. Напиши /cr help"
+  player-not-found: "&cИгрок не найден."
+  item-create-error: "&cНе удалось создать предмет."
+  relic-given: "&aТебе выдана &6Ancient Relic&a!"
+  relic-given-sender: "&aРеликвия выдана игроку &e{player}&a."
+  config-reloaded: "&aКонфиг перезагружен."
+  ritual-lightning: "&dБабуин на молнию"
+  hero_already_summoned: "&cВы уже призвали Херобрина."
+  hero_spawn: "&cВы уже спавнили Херобрина! Осталось подождать: "
+  hero_spawn_chat: "&cВы заспавнили Херобрина"
+  relic-mode: "&eРежим реликвии: &6{mode}"
+  relic-cooldown: "&cРеликвия на кулдауне! Осталось: {seconds} сек."
+  relic-used: "&aТы использовал реликвию!"
+  teleport-no-target: "&cНет точки для телепорта!"
