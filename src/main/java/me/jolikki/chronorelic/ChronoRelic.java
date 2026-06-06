@@ -25,12 +25,12 @@ public class ChronoRelic extends JavaPlugin {
         registerCommands();
         registerListeners();
 
-        getLogger().info("ChronoRelic has been enabled!");
+        getLogger().info("ChronoRelic был включен!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("ChronoRelic has been disabled!");
+        getLogger().info("ChronoRelic был выключен!");
     }
 
     public ConfigManager getConfigManager() {
@@ -40,7 +40,7 @@ public class ChronoRelic extends JavaPlugin {
     private void registerCommands() {
         PluginCommand command = getCommand("cr");
         if (command == null) {
-            getLogger().severe("Command /cr is missing in plugin.yml");
+            getLogger().severe("Команда /cr <> отсутствует в plugin.yml");
             return;
         }
 
